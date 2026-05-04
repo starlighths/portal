@@ -1,3 +1,5 @@
+document.body.style.border = "10px solid red";
+
 const state = {
     isLoggedIn: false,
     user: null // Will hold { fullName, role, classId, onTimeRate }
