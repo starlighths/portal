@@ -64,3 +64,13 @@ window.handleLogin = () => {
 
 window.onload = initApp;
 
+function initApp() {
+    const root = document.getElementById('root');
+    root.innerHTML = ''; // This clears the "Loading..." text immediately
+    
+    if (!state.isLoggedIn) {
+        renderLogin();
+    } else {
+        renderDashboard();
+    }
+}
