@@ -17,7 +17,7 @@ function renderLogin() {
     document.getElementById('root').innerHTML = `
         <div class="auth-container">
             <div class="login-card">
-                <h1 style="color: var(--primary)">🌟 STARLIGHT</h1>
+                <h1 style="color: var(--primary)">🌟 STARLIGHT HIGH SCHOOL</h1>
                 <p>Please sign in to the 2025-2026 Portal</p>
                 <input type="text" id="uid" placeholder="User ID" style="width:100%; padding:10px; margin:10px 0;">
                 <input type="password" id="pwd" placeholder="Password" style="width:100%; padding:10px; margin:10px 0;">
